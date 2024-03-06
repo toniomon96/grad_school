@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T23:00:31.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9WA0Bq6G9vSwSxhkOsCf" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T23:28:24.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="gGNVTD7ogg8CFwIjSA-u" version="23.1.5" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1059" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -32,9 +32,6 @@
             <mxPoint x="1017" y="655" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1672d66443f91eb5-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Emissions&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;Id = &quot;R1.1.2&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;text=&quot;The vehicle shall meet UltraLow Emissions Vehicle standards.&quot;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="427" y="785" width="290" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="1672d66443f91eb5-20" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=none;endFill=0;jettySize=auto;orthogonalLoop=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1187" y="605" as="targetPoint" />
@@ -49,10 +46,10 @@
             <mxPoint x="200" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N4b5DvqJVKloyP-1CNop-6" value="getName&lt;br&gt;setName&lt;br&gt;getAge&lt;br&gt;setAge&lt;br&gt;getHeight&lt;br&gt;setHeight&lt;br&gt;getWeight&lt;br&gt;setWeight&lt;br&gt;getFavoriteFood&lt;br&gt;setFavoriteFood&lt;br&gt;run&lt;br&gt;jump" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N4b5DvqJVKloyP-1CNop-7">
-          <mxGeometry y="290" width="140" height="30" as="geometry" />
+        <mxCell id="N4b5DvqJVKloyP-1CNop-6" value="+getName() : String&lt;br&gt;+setName(name: String) : void&lt;br&gt;+getAge(): int&lt;br&gt;+setAge(age: int): void&lt;br&gt;+getHeight(): int&lt;br&gt;+setHeight(height: int) : void&lt;br&gt;+getWeight(): int&lt;br&gt;+setWeight(weight: int) void&lt;br&gt;+getFavoriteFood(): String&lt;br&gt;+setFavoriteFood(food: String) void&lt;br&gt;+run(): void&lt;br&gt;+jump(): void" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N4b5DvqJVKloyP-1CNop-7">
+          <mxGeometry y="290" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N4b5DvqJVKloyP-1CNop-4" value="name&lt;br&gt;height&lt;br&gt;age&lt;br&gt;weight&lt;br&gt;favoriteFood" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N4b5DvqJVKloyP-1CNop-7">
+        <mxCell id="N4b5DvqJVKloyP-1CNop-4" value="-name: String&lt;br&gt;-height: int&lt;br&gt;-age: int&lt;br&gt;-weight: int&lt;br&gt;-favoriteFood: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N4b5DvqJVKloyP-1CNop-7">
           <mxGeometry y="-10" width="140" height="150" as="geometry" />
         </mxCell>
       </root>
