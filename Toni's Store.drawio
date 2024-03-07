@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T01:42:12.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rQxXh7tJ9_SoEFLhamvH" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T01:45:53.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9vow0TJlojwNcca44rcB" version="23.1.5" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1059" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
         <mxCell id="9bywKifhJixgm4Bvp-1u-8" value="&lt;b&gt;StoreFront&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
           <mxGeometry x="490" y="73.5" width="440" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="9bywKifhJixgm4Bvp-1u-9" value="-isRunning: boolean&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;customerPurchaseProduct(shoppingCart: ShoppingCart):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9bywKifhJixgm4Bvp-1u-8">
+        <mxCell id="9bywKifhJixgm4Bvp-1u-9" value="-inventoryManager: InventoryManager&lt;br&gt;-shoppingCart: ShoppingCart&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;+showWelcomeMessage(): void&lt;br&gt;+displayMenu(): void&lt;br&gt;+handleUserInput(): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9bywKifhJixgm4Bvp-1u-8">
           <mxGeometry y="26" width="440" height="204" as="geometry" />
         </mxCell>
         <mxCell id="9bywKifhJixgm4Bvp-1u-25" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.002;exitY=0.362;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="9bywKifhJixgm4Bvp-1u-8">
