@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T20:46:10.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Rjn8eyOP2vYf9acT_5Ob" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T22:40:39.411Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="1v1JeB7dapf_cCSc6jqt" version="23.1.5" type="github">
   <diagram name="Page-1" id="eIcaw5Ktxpqwb3rYndxn">
-    <mxGraphModel dx="1059" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yzI9sUqMzmRR-9goqgxq-1" value="Process user Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="57.5" y="660" width="215" height="230" as="geometry" />
+          <mxGeometry x="57.5" y="670" width="215" height="230" as="geometry" />
         </mxCell>
         <mxCell id="yzI9sUqMzmRR-9goqgxq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yzI9sUqMzmRR-9goqgxq-2" target="yzI9sUqMzmRR-9goqgxq-7">
           <mxGeometry relative="1" as="geometry" />
@@ -19,7 +19,7 @@
         <mxCell id="yzI9sUqMzmRR-9goqgxq-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="60" y="10" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yzI9sUqMzmRR-9goqgxq-4" value="If entered &#39;C&#39;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="yzI9sUqMzmRR-9goqgxq-4" value="If entered &#39;V&#39;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="380" y="680" width="205" height="190" as="geometry" />
         </mxCell>
         <mxCell id="yzI9sUqMzmRR-9goqgxq-5" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
@@ -105,10 +105,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yzI9sUqMzmRR-9goqgxq-26" value="Process user Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="yzI9sUqMzmRR-9goqgxq-26" value="Retrieve Salable Products" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="890" y="670" width="185" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="yzI9sUqMzmRR-9goqgxq-27" value="Process user Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="yzI9sUqMzmRR-9goqgxq-27" value="Add Product" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="890" y="910" width="185" height="190" as="geometry" />
         </mxCell>
         <mxCell id="yzI9sUqMzmRR-9goqgxq-28" value="Process user Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
@@ -157,6 +157,9 @@
           <mxGeometry x="-0.0674" y="-5" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yzI9sUqMzmRR-9goqgxq-44" value="Please enter a command from the list below:&lt;br&gt;V: View Products&lt;br&gt;A: Add a Product to Shopping Cart&lt;br&gt;X: Remove a product from Shopping Cart&lt;br&gt;R: Return an item&amp;nbsp;&lt;br&gt;C: Checkout&lt;br&gt;M: Back to Main Menu&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1040" width="305" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
