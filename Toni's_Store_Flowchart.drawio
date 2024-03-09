@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T14:37:09.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mOuNos4HxUAsJbeoYArV" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-09T15:00:31.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="OUpYiP5B6V2LCPMAH54h" version="23.1.5" type="github">
   <diagram name="Page-1" id="eIcaw5Ktxpqwb3rYndxn">
     <mxGraphModel dx="2432" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -176,6 +176,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-3" target="zypE5ITx2ImbV6XnPkiI-177">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482.5" y="7870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zypE5ITx2ImbV6XnPkiI-3" value="If entered &#39;E&#39;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="380" y="7420" width="205" height="190" as="geometry" />
         </mxCell>
@@ -240,7 +245,12 @@
             <mxPoint x="1320" y="5100" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zypE5ITx2ImbV6XnPkiI-15" value="Are you sure you&#39;d like to check out?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-15" target="zypE5ITx2ImbV6XnPkiI-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2130" y="5010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-15" value="Are you sure you&#39;d like to check out?&lt;br&gt;Y: Confirm Checkout&lt;br&gt;N: Back to Main Menu&lt;br&gt;*Show items in cart*" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1640" y="5010" width="235" height="185" as="geometry" />
         </mxCell>
         <mxCell id="zypE5ITx2ImbV6XnPkiI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.021;entryY=0.514;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zypE5ITx2ImbV6XnPkiI-19">
@@ -552,6 +562,11 @@
         <mxCell id="zypE5ITx2ImbV6XnPkiI-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-129" target="zypE5ITx2ImbV6XnPkiI-132">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-129" target="zypE5ITx2ImbV6XnPkiI-147">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2670" y="3788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zypE5ITx2ImbV6XnPkiI-129" value="Process User Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1940" y="3737.5" width="100" height="100" as="geometry" />
         </mxCell>
@@ -585,8 +600,160 @@
         <mxCell id="zypE5ITx2ImbV6XnPkiI-135" value="Add product back to inventory" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2530" y="3605" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="zypE5ITx2ImbV6XnPkiI-140" value="Would you like to do anything else?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2790" y="3590" width="180" height="135" as="geometry" />
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-140" target="zypE5ITx2ImbV6XnPkiI-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2890" y="3530" />
+              <mxPoint x="1990" y="3530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-140" value="Would you like to return another product?&lt;br&gt;*Products Listed here*&lt;br&gt;M: Back to Main Menu" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2795" y="3582.5" width="190" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-147" target="zypE5ITx2ImbV6XnPkiI-149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2990" y="3787.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-147" value="If entered anything else" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="3721.5" width="170" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-149" target="zypE5ITx2ImbV6XnPkiI-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3110" y="4040" />
+              <mxPoint x="1990" y="4040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-149" value="Try again:&lt;div&gt;Would you like to return another product?&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;M: Back to Main Menu&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="3707.5" width="280" height="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-153" target="zypE5ITx2ImbV6XnPkiI-155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2430" y="4930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-153" value="Process Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="5052.5" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-155" target="zypE5ITx2ImbV6XnPkiI-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2740" y="4930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-155" value="If entered Y" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="4880" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-157" target="zypE5ITx2ImbV6XnPkiI-159">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2930" y="4930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-157" value="Remove products from inventory and shopping Cart" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="4880" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-159" target="zypE5ITx2ImbV6XnPkiI-163">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3280" y="4870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-159" value="&lt;br&gt;Checkout Successful!&lt;br&gt;What would you like to do next?&lt;br&gt;M: Back to Main Menu&lt;br&gt;E: Exit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="4862.5" width="210" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-163" target="zypE5ITx2ImbV6XnPkiI-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3560" y="4860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-163" target="zypE5ITx2ImbV6XnPkiI-167">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3440" y="5050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-163" target="zypE5ITx2ImbV6XnPkiI-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-163" value="Process User Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="4880" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-165" target="yzI9sUqMzmRR-9goqgxq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3560" y="2870" />
+              <mxPoint y="2870" />
+              <mxPoint y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-165" value="If entered M" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3510" y="4810" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-167" target="zypE5ITx2ImbV6XnPkiI-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3440" y="5400" />
+              <mxPoint x="3100" y="5400" />
+              <mxPoint x="3100" y="7630" />
+              <mxPoint x="1228" y="7630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-167" value="If entered E" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3390" y="5000" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-168" target="zypE5ITx2ImbV6XnPkiI-171">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4040" y="4930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-173" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zypE5ITx2ImbV6XnPkiI-170">
+          <mxGeometry x="-0.0667" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-168" value="If entered anything else" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3755" y="4852.5" width="140" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-171" target="zypE5ITx2ImbV6XnPkiI-163">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4110" y="4730" />
+              <mxPoint x="3310" y="4730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-171" value="Try again:&lt;div&gt;M: Back to Main Menu&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;E: Exit&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4010" y="4880" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-177" target="zypE5ITx2ImbV6XnPkiI-179">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="7945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-177" value="If entered anything else" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="403.75" y="7840" width="157.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-179" target="zypE5ITx2ImbV6XnPkiI-181">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="7945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-179" value="Process User Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="7895" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-181" value="Invalid input. Taking back to Main Menu" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="7866.25" width="350" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-181" target="yzI9sUqMzmRR-9goqgxq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1575" y="8080" />
+              <mxPoint y="8080" />
+              <mxPoint y="422" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
