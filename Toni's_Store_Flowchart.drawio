@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T21:45:26.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="NXEO7050VGKOdIEQQ467" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T22:19:57.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Mvz_EU2LbMQaZMlD63QZ" version="23.1.5" type="github">
   <diagram name="Page-1" id="eIcaw5Ktxpqwb3rYndxn">
     <mxGraphModel dx="2438" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCFFFF" math="0" shadow="0">
       <root>
@@ -113,6 +113,11 @@
         <mxCell id="yzI9sUqMzmRR-9goqgxq-29" value="Retrieve Salable Products" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1080" y="3680" width="185" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="8KenlMF8k856APXQgud9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yzI9sUqMzmRR-9goqgxq-30" target="8KenlMF8k856APXQgud9-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="4890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yzI9sUqMzmRR-9goqgxq-30" value="Retrieve items in Shopping Cart" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1135" y="5010" width="185" height="190" as="geometry" />
         </mxCell>
@@ -162,7 +167,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yzI9sUqMzmRR-9goqgxq-44" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;*Display Salable Products*&lt;br&gt;M; Back to Main Menu:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="yzI9sUqMzmRR-9goqgxq-44" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;*Display Salable Products*&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1390" y="690.63" width="230" height="168.75" as="geometry" />
         </mxCell>
         <mxCell id="zypE5ITx2ImbV6XnPkiI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zypE5ITx2ImbV6XnPkiI-3" target="zypE5ITx2ImbV6XnPkiI-4" edge="1">
@@ -224,7 +229,7 @@
             <mxPoint x="1990" y="3787.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zypE5ITx2ImbV6XnPkiI-13" value="&lt;br&gt;Which Product would you like to return?&lt;br&gt;*Products shown here*&lt;br&gt;M: Back to Main Menu" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="zypE5ITx2ImbV6XnPkiI-13" value="&lt;br&gt;Enter Product you would like to return:&lt;br&gt;*Products shown here*&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1540" y="3695" width="235" height="185" as="geometry" />
         </mxCell>
         <mxCell id="zypE5ITx2ImbV6XnPkiI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="zypE5ITx2ImbV6XnPkiI-15" edge="1">
@@ -266,7 +271,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zypE5ITx2ImbV6XnPkiI-21" value="Process User Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1830" y="1558" width="185" height="190" as="geometry" />
+          <mxGeometry x="1810" y="1555.5" width="185" height="190" as="geometry" />
         </mxCell>
         <mxCell id="zypE5ITx2ImbV6XnPkiI-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zypE5ITx2ImbV6XnPkiI-47" target="zypE5ITx2ImbV6XnPkiI-49" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -343,7 +348,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zypE5ITx2ImbV6XnPkiI-82" value="If entered invalid Product" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2140" y="1430" width="100" height="100" as="geometry" />
+          <mxGeometry x="2070" y="1380" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="zypE5ITx2ImbV6XnPkiI-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zypE5ITx2ImbV6XnPkiI-85" target="zypE5ITx2ImbV6XnPkiI-87" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -396,11 +401,12 @@
         <mxCell id="zypE5ITx2ImbV6XnPkiI-135" value="Add product back to inventory" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="2530" y="3605" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="zypE5ITx2ImbV6XnPkiI-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zypE5ITx2ImbV6XnPkiI-140" target="zypE5ITx2ImbV6XnPkiI-129" edge="1">
+        <mxCell id="8KenlMF8k856APXQgud9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zypE5ITx2ImbV6XnPkiI-140" target="yzI9sUqMzmRR-9goqgxq-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2890" y="3530" />
-              <mxPoint x="1990" y="3530" />
+              <mxPoint x="2890" y="3540" />
+              <mxPoint y="3540" />
+              <mxPoint y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -546,11 +552,40 @@
         <mxCell id="8KenlMF8k856APXQgud9-17" value="Invalid Product Name. Try again.&lt;span style=&quot;background-color:#2f2f2f;padding:0px 0px 0px 2px;&quot;&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="3010" y="2190" width="220" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="8KenlMF8k856APXQgud9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8KenlMF8k856APXQgud9-23" target="yzI9sUqMzmRR-9goqgxq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2575" y="5320" />
+              <mxPoint y="5320" />
+              <mxPoint y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8KenlMF8k856APXQgud9-23" value="If entered anything else" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2480" y="5080" width="190" height="190" as="geometry" />
         </mxCell>
         <mxCell id="8KenlMF8k856APXQgud9-27" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2130" y="6452.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8KenlMF8k856APXQgud9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8KenlMF8k856APXQgud9-36" target="8KenlMF8k856APXQgud9-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="4895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KenlMF8k856APXQgud9-36" value="If Shopping Cart isEmpty" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="4830" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8KenlMF8k856APXQgud9-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8KenlMF8k856APXQgud9-38" target="yzI9sUqMzmRR-9goqgxq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1960" y="4820" />
+              <mxPoint y="4820" />
+              <mxPoint y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KenlMF8k856APXQgud9-38" value="Cannot checkout, shoppingCart is empty" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1885" y="4852.5" width="150" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
