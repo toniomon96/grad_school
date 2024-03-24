@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T21:13:07.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="kspAYZVgyX-4p2F3pknd" version="24.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-24T21:20:07.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="IL_vpb-jeCMA4DtFXDO6" version="24.0.8" type="github">
   <diagram name="Page-1" id="eIcaw5Ktxpqwb3rYndxn">
     <mxGraphModel dx="2294" dy="2080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCFFFF" math="0" shadow="0">
       <root>
@@ -770,6 +770,15 @@
         <mxCell id="SoI4EGUGny9ELKLl9ZO0-15" value="Empty Shopping Cart" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2320" y="2960" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="SoI4EGUGny9ELKLl9ZO0-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SoI4EGUGny9ELKLl9ZO0-17" target="yzI9sUqMzmRR-9goqgxq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2620" y="2850" />
+              <mxPoint y="2850" />
+              <mxPoint y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SoI4EGUGny9ELKLl9ZO0-17" value="Emptied Cart Successfully" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2570" y="2980" width="100" height="60" as="geometry" />
         </mxCell>
@@ -837,16 +846,6 @@
         <mxCell id="yzI9sUqMzmRR-9goqgxq-29" value="Retrieve Salable Products" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1240" y="3680" width="185" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="SoI4EGUGny9ELKLl9ZO0-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SoI4EGUGny9ELKLl9ZO0-51" target="SoI4EGUGny9ELKLl9ZO0-53">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1370" y="3590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SoI4EGUGny9ELKLl9ZO0-54" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SoI4EGUGny9ELKLl9ZO0-52">
-          <mxGeometry x="-0.0545" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="SoI4EGUGny9ELKLl9ZO0-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SoI4EGUGny9ELKLl9ZO0-51" target="yzI9sUqMzmRR-9goqgxq-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -855,11 +854,47 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="SoI4EGUGny9ELKLl9ZO0-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SoI4EGUGny9ELKLl9ZO0-51" target="SoI4EGUGny9ELKLl9ZO0-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="3590.90909090909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoI4EGUGny9ELKLl9ZO0-60" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SoI4EGUGny9ELKLl9ZO0-58">
+          <mxGeometry x="0.3327" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SoI4EGUGny9ELKLl9ZO0-51" value="If entered Y" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1070" y="3540" width="120" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="SoI4EGUGny9ELKLl9ZO0-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SoI4EGUGny9ELKLl9ZO0-53" target="yzI9sUqMzmRR-9goqgxq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1767" y="3510" />
+              <mxPoint y="3510" />
+              <mxPoint y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SoI4EGUGny9ELKLl9ZO0-53" value="Return all products to inventory" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="3540" width="100" height="100" as="geometry" />
+          <mxGeometry x="1717.5" y="3540" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SoI4EGUGny9ELKLl9ZO0-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=0.14;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SoI4EGUGny9ELKLl9ZO0-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1743" y="2880" as="sourcePoint" />
+            <mxPoint x="-0.05000000000000071" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1743" y="2810" />
+              <mxPoint x="1" y="2810" />
+              <mxPoint x="1" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SoI4EGUGny9ELKLl9ZO0-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SoI4EGUGny9ELKLl9ZO0-59" target="SoI4EGUGny9ELKLl9ZO0-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SoI4EGUGny9ELKLl9ZO0-59" value="Returning All Products" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="3560.90909090909" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
