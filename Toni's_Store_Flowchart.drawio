@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T17:46:12.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Ew7HbYby240l1qJY-zFl" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-14T23:55:21.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="H2kOkNssGT8hQzuCUe5G" version="24.2.2" type="github">
   <diagram name="Page-1" id="eIcaw5Ktxpqwb3rYndxn">
-    <mxGraphModel dx="2438" dy="2178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCFFFF" math="0" shadow="0">
+    <mxGraphModel dx="3464" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#CCFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -895,6 +895,121 @@
         </mxCell>
         <mxCell id="SoI4EGUGny9ELKLl9ZO0-59" value="Returning All Products" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1390" y="3560.90909090909" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-1" target="gsRysClTAGA-0lAxbag_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="-100" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-2" target="gsRysClTAGA-0lAxbag_-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1004" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-2" value="Connected to Store Front Application.&amp;nbsp;&lt;div&gt;Enter U to update inventory, R to retrieve inventory or Q to quit&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1142.5" y="130" width="275" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-5" target="gsRysClTAGA-0lAxbag_-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-660" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-5" target="gsRysClTAGA-0lAxbag_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1500" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-5" target="gsRysClTAGA-0lAxbag_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1004.9999999999995" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-5" value="Process Admin Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1102" y="455" width="194" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-8" target="gsRysClTAGA-0lAxbag_-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-660.666666666667" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-8" value="If enetered &#39;R&#39;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="750" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-10" target="gsRysClTAGA-0lAxbag_-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1004.9999999999995" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-10" value="If entered &#39;Q&#39;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1054.9999999999995" y="760" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-11" target="gsRysClTAGA-0lAxbag_-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1499.5555555555557" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-11" value="If entered &#39;U&#39;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1550" y="770" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-13" target="gsRysClTAGA-0lAxbag_-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1499.9955555555557" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-13" value="Update Inventory" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1549.9955555555557" y="1320" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-15" target="gsRysClTAGA-0lAxbag_-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1004.9999999999995" y="1727.4072265625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-15" value="Exiting Application. Goodbye!" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1082.5" y="990" width="155" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-18" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1112.5" y="1630" width="215" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-19" value="*Inventory Display Mesage*" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-745.67" y="1395" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-20" target="gsRysClTAGA-0lAxbag_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-20" value="Enter Json string of Salable Products to update (end with an empty line" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1585" y="1020" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-23" target="gsRysClTAGA-0lAxbag_-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1500" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-23" value="Captured JSON payload" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="1570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-25" target="gsRysClTAGA-0lAxbag_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2110" y="1800" as="sourcePoint" />
+            <mxPoint x="-1674.8888888888891" y="19.999999999999545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-25" value="Updated Inventory Successfully" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1550" y="1740" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-28" value="Retrieve Inventory" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-710.666666666667" y="1130" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-28" target="gsRysClTAGA-0lAxbag_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRysClTAGA-0lAxbag_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gsRysClTAGA-0lAxbag_-19" target="gsRysClTAGA-0lAxbag_-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-420" y="1455" />
+              <mxPoint x="-420" y="-55" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
