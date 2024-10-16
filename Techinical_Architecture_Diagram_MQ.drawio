@@ -71,6 +71,16 @@
         <mxCell id="YzbT-L8hGDfXFzFk-YVD-24" value="Error Handling and Monitoring" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="685.25" y="455" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="lU9kTMsstc44mvVwPtHD-2" value="Enqueue Loan Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#B3B3B3;fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="630.0042857142857" y="390" as="geometry">
+            <mxPoint x="-355" y="-334" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lU9kTMsstc44mvVwPtHD-3" value="Loan Status Updates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#B3B3B3;fontStyle=1" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="700.0042857142857" y="740" as="geometry">
+            <mxPoint x="-355" y="-334" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
